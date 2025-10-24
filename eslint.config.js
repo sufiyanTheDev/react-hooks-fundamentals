@@ -45,7 +45,7 @@ export default [
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
       'no-unused-vars': 'warn',
-      'semi': ['error', 'always']
+      'semi': ['error', 'always'],
     },
     settings: {
       react: {
