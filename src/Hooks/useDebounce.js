@@ -18,7 +18,7 @@ export function useDebounce(callback, delay){
     }, [cancel]);
 
     // remove the older time out and sets the new timeout
-    const debouncedFn = useCallback((...args) => {
+    const debounceFn = useCallback((...args) => {
         
         // clear an active timer
         if(timeoutRef.current){
@@ -32,5 +32,5 @@ export function useDebounce(callback, delay){
 
     }, [callback, delay]);
 
-    return {debouncedFn, cancel};
+    return {debounceFn, cancel};
 }

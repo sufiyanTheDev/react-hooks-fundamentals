@@ -1,10 +1,10 @@
 import "./App.scss";
+import Search from "./components/Search.js";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <p>I am here</p>
+      <Search />
     </div>
   );
 }
