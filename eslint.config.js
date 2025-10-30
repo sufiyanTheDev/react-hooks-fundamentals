@@ -19,6 +19,8 @@ export default [
         window: 'readonly',
         document: 'readonly',
         navigator: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
         
         // Jest globals
         test: 'readonly',
