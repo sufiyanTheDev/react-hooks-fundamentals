@@ -21,6 +21,7 @@ export default [
         navigator: 'readonly',
         setTimeout: 'readonly',
         clearTimeout: 'readonly',
+        fetch: 'readonly',
         
         // Jest globals
         test: 'readonly',

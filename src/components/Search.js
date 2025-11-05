@@ -29,7 +29,6 @@ export default function Search() {
       const data = await response.json();
       setResults(data?.users || []);
     } catch (err) {
-      console.log(err);
       setError(true);
     } finally {
       setLoading(false);
@@ -54,7 +53,7 @@ export default function Search() {
     setQuery("");
     setResults([]);
     cancel();
-  }
+  };
 
   // Keyboard navigation handler
   const onKeyDown = (e) => {
